@@ -12,7 +12,6 @@ app.get('/', function(request, response) {
 	  buf  = data;
     });
 
-    console.log(buf);
     response.send(buf.toString('utf8'));
 });
 
